@@ -1,0 +1,12 @@
+language: node_js  #언어
+node_js:
+  - "12.16.2"  #버전
+before_install:  #패키지 다운받기 전 
+  - npm install -g yarn  #yarn 글로벌 설치
+branches:
+  only:
+    - master
+notifications:  #성공 실패 여부 알림
+  email:
+    recipients:
+      - dev.wlsrms9300@naver.com
