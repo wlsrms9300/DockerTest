@@ -1,0 +1,21 @@
+.detail {min-width:800px; min-height:500px; margin:50px auto 0 auto;}
+.detail, .detail > tbody > tr > td, .detail > tbody > tr > th {border: solid 1px black;}
+.detail > tbody > tr > td, .detail > tbody > tr > th {padding:20px;}
+.detail > tbody > tr > th {width:20%; font-weight: bold; vertical-align: middle;}
+.detail > tbody > tr > td {width:80%; vertical-align: middle;}
+.detail > tbody > tr:nth-child(4) > th {height:70%;}
+.comment > table {text-align: center; margin: 0 auto; min-width:800px;}
+.comment > table > tbody > tr > td, .comment > table > tbody > tr > th {border: solid 1px black; padding:20px; vertical-align: middle;}
+.comment > table > tbody > tr > th {width:20%; font-weight:bold;}
+.comment > table > tbody > tr > td {width:80%;}
+.write-comment > form > table {min-width:800px; margin:0 auto;}
+.write-comment > form > table > tbody > tr > td:nth-child(1) {width:90%; vertical-align: middle;}
+.write-comment > form > table > tbody > tr > td:nth-child(2) {width:10%; vertical-align: middle;}
+.write-comment > form > table > tbody > tr > td > textarea {width:99%; resize:none;}
+.write-comment > form > table > tbody > tr > td > button {width:100%; height:2.2rem;}
+
+.detail > tbody > tr > th, .comment > table > tbody > tr > th {background-color: rgb(228, 228, 228);}
+.bt-wrap {width:100px; margin:0 auto 40px auto;}
+.bt-wrap > button {width:50%;}
+
+

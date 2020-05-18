@@ -1,0 +1,32 @@
+.Cinema table {
+  width: 100%;
+}
+.Cinema .c0 {
+  color: #868e96;
+  padding-bottom: 1rem;
+  font-weight: 900;
+}
+.Cinema .c1 {
+  float: left;
+  width: 100%;
+}
+.Cinema .c1 tr {
+  float: left;
+  width: 100%;
+}
+.Cinema .c1 tr td {
+  float: left;
+  width: 25%;
+}
+.Cinema .cinema {
+  border: 1px solid blue;
+  width: 100px;
+  height: 300px;
+  text-align: center;
+}
+.Cinema .cinema2 {
+  border: 1px solid blue;
+  width: 500px;
+  height: 300px;
+  text-align: center;
+}
